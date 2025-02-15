@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // local
-  base: "/",
+  // base: "/",
   // github page
-  // base: "/card-draw/",
+  base: "/card-draw/",
 })
